@@ -3,5 +3,5 @@ then
   export DEBIAN_FRONTEND=noninteractive
   apt update
   apt install -y iproute2 dnsutils iputils-ping procps sudo vim curl git tmux
-  rm -fr /var/lib/apt/lists/*
+  echo "rm -fr /var/lib/apt/lists/*"
 fi
