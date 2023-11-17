@@ -1,7 +1,7 @@
 #### run with container
 
 ```bash
-git clone https://github.com/jobscale/maintenance.git
+git clone git@github.com:jobscale/maintenance.git
 cd maintenance
 main() {
   docker build . -t local/maintenance
